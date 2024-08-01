@@ -1,0 +1,38 @@
+@media(max-width: 1002px){
+  #email{
+    margin-left: 200px;
+  }
+  #nome{
+    margin-top: 20px;
+    margin-left: 300px;
+  }
+  #submit{
+    margin-left: 350px;
+  }
+}
+@media(max-width:800px){
+  #email{
+    width: 400px;
+    margin-left: 150px;
+  }
+  #nome{
+    margin-top: 20px;
+    margin-left: 190px;
+  }
+  #submit{
+    margin-left: 240px;
+  }
+}
+@media(max-width:663px){
+  #email{
+    width: 400px;
+    margin-left: 90px;
+  }
+  #nome{
+    margin-top: 20px;
+    margin-left: 135px;
+  }
+  #submit{
+    margin-left: 190px;
+}
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box; 
+ background-image: url(/img/minecraft.jpg);
+ height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+}
+nav li{
+  font-size: 60px;
+}
+nav a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 40px;
+}
+.abort{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+.inptext{
+  font-family: "Pixelify Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 90%;
+  height: 70px;
+  background-color: black;
+  border: solid 5px rgb(98, 98, 98);
+  color: rgb(247, 0, 255);
+  font-size: 4vw;
+  text-align: center;s
+}

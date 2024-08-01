@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box; 
+ background-color: #5E17EB;
+ height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+}
+nav li{
+  font-size: 30px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+}
+.abort{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-left: 300px;
+  width: 600px;
+  font-size: 30px;
+  color: white;
+}
+.axolotl{
+  width: 300px;
+  margin-top: -400px;
+  margin-left: 400px;
+}
+/* respondividade */
+@media(max-width:1667px){
+  .axolotl{
+    margin-left: 100px;
+  }
+}
+@media(max-width:1025px){
+  .abort{
+    display: flex;
+    margin-left: -100px;
+  }
+  .axolotl{
+   display: flex;
+   margin-top: -600px;
+   margin-left: 300px;
+   width: 200px;
+
+  }
+}
+@media(max-width:870px){
+  .abort{
+    display: flex;
+    margin-left: -200px;
+  }
+  .axolotl{
+   display: flex;
+   margin-top: -600px;
+   margin-left: 200px;
+   width: 200px;
+  }
+}
+@media(max-width:780px){
+  .abort{
+    display: flex;
+    margin-left: -240px;
+    font-size: 20px;
+    width: 500px;
+  }
+  .axolotl{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   margin-top: 100px;
+   margin-left: 100px;
+   width: 300px;
+
+  }
+}
