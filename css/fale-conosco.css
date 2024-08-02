@@ -1,76 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+@import "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+@import "https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap";
+body {
   font-family: "Kanit", sans-serif;
 }
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 body {
   font-family: "League Spartan", sans-serif;
   margin: 0;
   padding: 0;
- box-sizing: border-box; 
- background-color: #5E17EB;
- height: 100vh;
+  box-sizing: border-box;
+  background-color: #5e17eb;
+  height: 100vh;
 }
-header{
+header {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-nav ul{
+nav ul {
   list-style: none;
 }
-nav li{
+nav li {
   font-size: 30px;
 }
-nav a{
+nav a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   margin-left: -50px;
 }
-nav a:hover{
-  border-bottom: 6px solid plum;;
-   color: white;
-
+nav a:hover {
+  border-bottom: 6px solid #dda0dd;
+  color: #fff;
 }
-main{
-  background-color: #5E17EB;
+main {
+  background-color: #5e17eb;
   height: 110vh;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-form{
-  border: solid 10PX plum; 
-
+form {
+  border: solid 10px #dda0dd;
 }
-#email{
-  
+#email {
   text-align: center;
   width: 500px;
   height: 60px;
   font-size: 30px;
-  
 }
-#nome{
+#nome {
   text-align: center;
   width: 300px;
   height: 60px;
   font-size: 30px;
   flex-direction: column;
 }
-#submit{
+#submit {
   width: 200px;
   padding: 20px;
   font-size: 30px;
   margin-top: 30px;
   display: flex;
 }
-.axolotl{
+.axolotl {
   width: 40px;
 }
