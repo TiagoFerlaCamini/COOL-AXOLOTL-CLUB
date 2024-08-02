@@ -36,3 +36,42 @@
     margin-left: 190px;
 }
 }
+@media(max-width:550px){
+  #email{
+    width: 400px;
+    margin-left: 50px;
+  }
+  #nome{
+    margin-top: 20px;
+    margin-left: 105px;
+  }
+  #submit{
+    margin-left: 150px;
+}
+}
+@media(max-width:462px){
+  #email{
+    width: 400px;
+    margin-left: 30px;
+  }
+  #nome{
+    margin-top: 20px;
+    margin-left: 84px;
+  }
+  #submit{
+    margin-left: 130px;
+}
+}
+@media(max-width:432px){
+  #email{
+    width: 340px;
+    margin-left: 20px;
+  }
+  #nome{
+    margin-top: 20px;
+    margin-left: 44px;
+  }
+  #submit{
+    margin-left: 90px;
+}
+}

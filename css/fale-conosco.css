@@ -7,6 +7,36 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+body {
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+ box-sizing: border-box; 
+ background-color: #5E17EB;
+ height: 100vh;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul{
+  list-style: none;
+}
+nav li{
+  font-size: 30px;
+}
+nav a{
+  text-decoration: none;
+  color: white;
+  margin-left: -50px;
+}
+nav a:hover{
+  border-bottom: 6px solid plum;;
+   color: white;
+
+}
 main{
   background-color: #5E17EB;
   height: 110vh;
@@ -14,6 +44,10 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+}
+form{
+  border: solid 10PX plum; 
+
 }
 #email{
   
@@ -36,5 +70,7 @@ align-items: center;
   font-size: 30px;
   margin-top: 30px;
   display: flex;
-
+}
+.axolotl{
+  width: 40px;
 }

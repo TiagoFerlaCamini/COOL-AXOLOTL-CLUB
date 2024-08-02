@@ -24,6 +24,11 @@ nav a{
   color: rgb(0, 0, 0);
   font-size: 40px;
 }
+nav a:hover{
+  border-bottom: 6px solid plum;;
+   color: white;
+
+}
 .abort{
   display: flex;
   justify-content: center;
@@ -44,5 +49,5 @@ nav a{
   border: solid 5px rgb(98, 98, 98);
   color: rgb(247, 0, 255);
   font-size: 4vw;
-  text-align: center;s
+  text-align: center; 
 }
