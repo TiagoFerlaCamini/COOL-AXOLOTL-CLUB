@@ -7,7 +7,8 @@ body {
 }
 
 header {
-  background: #5E17EB;
+  
+  background-color: #5e17eb;
   color: #fff;
   padding: 10px;
 }
@@ -74,7 +75,7 @@ main  section h1{
 }
 
 main{
-  background-color: #5E17EB;
+  background-color: #5e17eb;
   margin: 0 auto;
   height: calc(100vh - 10px);
 }
@@ -124,3 +125,9 @@ main{
 
 
 
+#btn{
+  background-color: black;
+}
+#btn2{
+  background-color: black;
+}

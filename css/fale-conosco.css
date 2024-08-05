@@ -46,21 +46,32 @@ main {
 }
 form {
   border: solid 10px #dda0dd;
+ padding: 1px;
 }
 #email {
+  font-family: fantasy;
   text-align: center;
   width: 500px;
   height: 60px;
   font-size: 30px;
 }
+#email::placeholder{
+  font-family: fantasy;
+  color: black;
+}
 #nome {
+  font-family: fantasy;
   text-align: center;
   width: 300px;
   height: 60px;
   font-size: 30px;
   flex-direction: column;
 }
+#nome::placeholder{
+  color: black;
+}
 #submit {
+  font-family: fantasy;
   width: 200px;
   padding: 20px;
   font-size: 30px;
@@ -69,12 +80,12 @@ form {
 }
 .axolotl {
   width: 90px;
-  margin-top:200px;
+  margin-top:100px;
 }
 .abort{
   display: flex;
   font-size: 50px;
+  margin-top: -60px;
   color: white;
-
   
 }
