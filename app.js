@@ -8,10 +8,10 @@ document.getElementById("menu-toggle").addEventListener("click", function () {
 const btn = document.querySelector("#btn");
 btn.addEventListener("click", function () {
   const main = document.querySelector("main");
-  main.style.backgroundColor = '#261C24';
+  main.style.backgroundColor = '#420ea7';
 
   const header = document.querySelector("header");
-  header.style.background = '#261C24'
+  header.style.background = '#420ea7'
   return;
 });
 /* fim do modo escuro da pagina */
