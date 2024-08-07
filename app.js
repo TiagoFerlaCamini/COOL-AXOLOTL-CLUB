@@ -22,5 +22,5 @@ btn2.addEventListener('click',function(){
   main.style.backgroundColor = '#5e17eb';
 
   const header = document.querySelector("header");
-  header.style.background = '#5e17eb'
+  header.style.background = '#5e17eb' 
 })
